@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/raio.png" type="image/x-icon">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/modal.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="page-home">
+            <div class="content">
+                <header>
+                    <h1>Energia</h1>
+                    <a href="#">
+                        <strong>Site desenvolvido para você conseguir ver o consumo de energia de seus aparelhos</strong>
+                    </a>
+                </header>
+                <main>
+                    <h1>Calcule o quanto seus aparelhos gasta de energia
+                    </h1>
+                    <a href="#">
+                        <span></span>
+                        <strong>Calcular Energia</strong>
+                    </a>
+                </main>
+            </div>
+            <!--Modal-->
+            <div id="modal" class="hide">
+                <div class="content">
+                    <div class="header">
+                        <h1>Calcular</h1>
+                        <a href="#">Fechar</a>
+                    </div>
+                    <iframe src="https://enel-rj.simuladordeconsumo.com.br/ambiente/sala" frameborder="0"></iframe>
+                </div>
+            </div>
+            <!--final modal-->
+        </div>
+        <script src="script/modal.js"></script>
+    </body>
+</html>
